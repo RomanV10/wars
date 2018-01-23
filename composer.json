@@ -1,0 +1,22 @@
+{
+    "name": "testroman/wars",
+    "description": "Test wars",
+    "type": "laravel",
+    "require": {
+	"php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "roman",
+            "email": "roman.viktorovich10@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4" : {
+            "TestRoman\\Wars\\": "src/"
+        }
+    }
+}
+

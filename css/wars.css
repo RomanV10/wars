@@ -1,0 +1,63 @@
+.bg-white{
+    background-color:#ffffff !important;
+}
+.bg-grey{
+    background-color:#f5f5f5 !important;
+}
+.text-light-grey{
+    color: #d5d7d6;
+}
+.text-grey{
+    color: #858B8B;
+}
+.text-pink {
+    color: #E3C5F9;
+}
+
+.margin-bottom-0 {
+    margin-top: 0;
+}
+.pink-line {
+    border-bottom: 3px solid #955BC2;
+    width: 100%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.left-side{
+    width: 50%;
+    display: inline-block;
+}
+
+.right-side{
+    display: inline-block;
+    text-align: right;
+    width: 49%;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -ms-animation: spin .7s infinite linear;
+    -webkit-animation: spinw .7s infinite linear;
+    -moz-animation: spinm .7s infinite linear;
+    font-size: 58px;
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+@-webkit-keyframes spinw {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spinm {
+    from { -moz-transform: rotate(0deg);}
+    to { -moz-transform: rotate(360deg);}
+}
